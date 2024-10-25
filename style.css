@@ -1,0 +1,356 @@
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  background:linear-gradient(to right,#2a2a2a, #0e0e0e);
+  color:white;
+}
+  
+    html {
+      scroll-behavior: smooth;
+      }
+
+        /* Container for the bottom navigation */
+        .topnav {
+            bottom: 50px;
+            text-align: center;
+            position: fixed;
+            left: 50%;
+            width: 65%;
+            transform: translateX(-50%);
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 25px;
+            display: flex;
+            justify-content: space-around;
+            padding: 8px 0;
+            box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.3);
+            z-index:9999;
+        }
+
+ 
+.topnav a {
+ 
+  color: white;
+  text-align: center;
+  padding: 6px 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  
+  color: green;
+}
+
+.topnav a.active {
+  color:white;
+}
+ .line{
+     position:fixed;
+     width:100%;
+     height:2px;
+     top: 0px;
+     background-color:orange;
+ }
+ 
+  
+ .box{
+       
+        margin-top:10px;
+        text-align:center;
+        
+    }
+   .oval{
+       border-radius:50%;
+       border: 0.1rem solid gray;
+       width:90px;
+   }
+   .name {
+       
+       display: flex;
+       justify-content:center;
+       height:50px;
+       width: 100%;
+       text-align: center;
+   }
+    .name h1 {
+       position: relative;
+       top:22px;
+       font-size: 1rem;
+       color: white;
+     
+   }
+   
+   .Name h2 {
+    bottom: 25px;
+    position: relative;
+    color: white;
+    font-size: 2rem;
+   }
+
+   .Name {
+    display: flex;
+    justify-content:center;
+    height:30px;
+    width: 100%;
+    
+    
+   }
+   
+
+  .abt{
+      text-align: center;
+      color:white;
+  }
+   
+   .about-me {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      
+   }
+    
+    .para {
+        color:white;
+        width: 330px;
+    }
+  
+   .education1 {
+       width:100%;
+       display: flex;
+       justify-content: center;
+       
+   }
+   
+   .education2 {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    
+   }
+
+   .education3 {
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+   }
+
+   .headline{
+    color:white;
+       display:flex;
+       justify-content: center;
+       margin:0;
+       padding:1px;
+       position: relative;
+       top : -150px;
+       opacity:0;
+       transition: all 0.7s ease-in-out;
+   }
+   
+  .animate{
+      top:0;
+      opacity:1;
+  }
+  
+   .headline h1 {
+       position: relative;
+       top: 25px;
+       color:white;
+   }
+   .diploma {
+       position: relative;
+       left: 15px;
+       width:310px;
+       border-radius:10px;
+       height:100px;
+       color:white;
+   }
+   
+   .diploma b {
+       position: relative ;
+       top:10px;
+       left:10px;
+       color:white;
+   }
+   
+   .diploma h2 {
+       position: relative;
+       left:10px;
+       font-size: 1.5em
+       
+   }
+   
+   .diploma:hover{
+       background-color:#343837;
+       
+   }
+   .course {
+       position: relative;
+       left: 15px;
+       width:325px;
+       border-radius:10px;
+       height:75px;
+       color:white;
+   }
+   
+   .course b {
+       position: relative ;
+       top:10px;
+       left:10px;
+   }
+   
+   .course h1 {
+       position: relative;
+       left:10px;
+       font-size: 1.5em;
+   }
+   
+   .course:hover{
+       background-color:#343837;
+       
+   }
+   
+    .pcm {
+       position: relative;
+       left: 15px;
+       width:310px;
+       border-radius:10px;
+       height:75px;
+       color:white;
+       
+   }
+   
+    .pcm b {
+       position: relative ;
+       top:10px;
+       left:10px;
+   }
+   
+     .pcm h1 {
+       position: relative;
+       left:10px;
+       font-size: 1.5em;
+   }
+   
+      .pcm:hover{
+       background-color:#343837;
+   }
+   
+      .skll {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+      }
+
+   .skill h1 {
+       position: relative;
+       top: 25px;
+       color:white;
+       }
+   
+   .skill {
+       text-align: center;
+       overflow: hidden;
+       margin: 15px 0;
+       color:white;
+   }
+   
+   
+       
+   .skill-content{
+       width: 300px;
+       background-color:#343837;
+       border-radius:10px;
+       color:white;
+   }
+   
+    .skill-content h1 {
+       position: relative;
+       top:20px;
+       left: 30px;
+       font-size: 1em;
+       color:white;
+       }
+       
+       .contact-header {
+           text-align: center;
+           overflow: hidden;
+           height: 60px;
+       }
+        
+        .email {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+       .contact{
+           position:relative;
+           top:10px;
+           width:200px;
+           height:80px;
+           text-align: center;
+           background-color:#343837;
+           border-radius:10px;
+       }
+       
+       
+        
+       
+       .contact a {
+            position:relative;
+           font-size:20px;
+           top:8px;
+           color: white;
+           
+       }
+       .contact a:hover{
+           color:green;
+       }
+       
+       
+       .insta {
+    text-align: center;
+    overflow: hidden;
+    }
+       
+       .insta a  {
+            
+            font-size:30px;
+            text-decoration: none;
+            color:white;
+           }
+       
+         .insta a :hover {
+          
+          color: green;
+  }
+  
+       
+    footer{
+    margin-top:20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 6px 0;
+    }
+    
+    
+   
+    
+  
+  .paragraph {
+  
+  margin: 2px;
+  color: lightblack;
+  text-align:center;
+  font-size: 14px;
+  
+    }
+    
+    
+            
+  
+  
