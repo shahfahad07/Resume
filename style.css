@@ -161,7 +161,7 @@ body {
    }
    .diploma {
        position: relative;
-       left: 15px;
+       left: 14px;
        width:310px;
        border-radius:10px;
        height:100px;
@@ -188,7 +188,7 @@ body {
    }
    .course {
        position: relative;
-       left: 15px;
+       left: 14px;
        width:325px;
        border-radius:10px;
        height:75px;
@@ -214,7 +214,7 @@ body {
    
     .pcm {
        position: relative;
-       left: 15px;
+       left: 13px;
        width:310px;
        border-radius:10px;
        height:75px;
