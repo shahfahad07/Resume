@@ -138,21 +138,15 @@ body {
    }
 
    .headline{
-    color:white;
+       color:white;
        display:flex;
        justify-content: center;
        margin:0;
        padding:1px;
-       position: relative;
-       top : -150px;
-       opacity:0;
-       transition: all 0.7s ease-in-out;
+      
    }
    
-  .animate{
-      top:0;
-      opacity:1;
-  }
+  
   
    .headline h1 {
        position: relative;
