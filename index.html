@@ -7,7 +7,8 @@
     <title>Your Portfolio</title>
      <link rel="stylesheet" href="./style.css" >
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
 <body>
     <header>
         
@@ -26,18 +27,18 @@
       <div class="name" id="home">
         <h1>Hello i'm</h1>
           </div>
-            <div class="Name">
+            <div class="Name" data-aos="zoom-in" data-aos-duration="1500">
           <h2>Shah Fahad</h2>
        </div>
 
-      <div class="box">
+       <div class="box" data-aos="fade">
          <img class="oval" src="./img.jpeg" >
              </div>
          <div class="abt" id="about">
              <h1 >About me</h1>
          </div>
-   <div class="about-me"  >
-       
+   
+       <div class="about-me" data-aos="slide-up"  >
        <div class="para">
        <p>Myself Shah Fahad, I am a fullstack developer.<br>
        <br>
@@ -49,12 +50,12 @@ I will passout in 2025. I am potential person and i have worked on several proje
   
      
      
-       <div class="headline" id="education">
+       <div class="headline" id="education" data-aos="fade-down">
          <h1 >Education</h1>
            </div>
            <br>
            <div class="education1">
-           <div class="diploma">
+           <div class="diploma" data-aos="fade-right">
              <b>2022-2025</b>
               <h2>Diploma in Electrical<br>
               Engineering</h2>
@@ -63,13 +64,13 @@ I will passout in 2025. I am potential person and i have worked on several proje
               <br>
               
               <div class="education2">
-<div class=" course">
+<div class=" course" data-aos="fade-right">
  <b>2023-2024</b>
  <h1>Fullstack developer course</h1>
        </div> 
          </div>
             <br>
-            <div class="education3">
+            <div class="pcm" data-aos="fade-right">
             <div class="pcm">
                  <b>2019-2021</b>
                  <h1>Intermediate (PCM)</h1>
@@ -78,9 +79,9 @@ I will passout in 2025. I am potential person and i have worked on several proje
                          <br>
                         </div>                
                  
-                 <div class="skill" id="skills">
+                 <div class="skill" id="skills" data-aos="fade-down" >
                      <h1>Skills</h1></div>
-                 <div class="skll" >
+                 <div class="skll" data-aos="zoom-in-up">
          <div class="skill-content">
       <h1>
 • HTML
@@ -138,25 +139,24 @@ I will passout in 2025. I am potential person and i have worked on several proje
      <p>&copy; 2024 Love From Fahad</p>
      
     </footer>
-    <script>
-        
-  const animatedElements = document.querySelectorAll('.headline');
-  
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('animate'); 
-      } else {
-        entry.target.classList.remove('animate');
-      }
-    });
-  }, {
-    threshold: 0.5 
-  });
-
-  animatedElements.forEach(element => {
-    observer.observe(element);
-  });
-
-    </script>
+ 
+    <script src="https://unpkg.com/aos@next/dist/aos.js">
+     </script>
+         <script>
+        AOS.init({
+            offset: 280,
+            duration: 700,
+        });
+           </script>
      </body>
+
+
+
+
+
+
+
+
+
+
+    
