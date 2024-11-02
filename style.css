@@ -1,6 +1,4 @@
-
-
-     body {
+body {
   margin: 0;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
@@ -36,7 +34,7 @@
   color: white;
   text-align: center;
   padding: 6px 5px;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 
 
@@ -67,8 +65,8 @@
     }
    .oval{
        border-radius:50%;
-       border: 0.1rem solid gray;
-       width:20vw;
+       border: 0.7vw solid gray;
+       width:24vw;
    }
    
    .name {
@@ -81,7 +79,7 @@
    }
    
     .name h1 {
-       font-size:5vw;
+       font-size:4vw;
        color: white;
         }
    
@@ -98,7 +96,7 @@
     position: relative;
     bottom:55% ;
     color: white;
-    font-size: 8vw;
+    font-size: 7vw;
     
         }
      
@@ -106,7 +104,7 @@
   .abt {
       text-align: center;
       color:white;
-      font-size:5.5vw;
+      font-size:4.4vw;
   }
    
    .about-me {
@@ -115,6 +113,7 @@
       display: flex;
       justify-content: center;
       flex-wrap:wrap;
+      
       
     }
     
@@ -172,7 +171,8 @@
        padding:1px;
        width:100%;
        height:10vh;
-       font-size:5.5vw;
+       font-size:4.4vw;
+       
      
    }
     
@@ -181,7 +181,7 @@
        position: relative;
        left: 14px;
        width:80vw;
-       border-radius:10px;
+       border-radius:4vw;
        height:13vh;
        color:white;
       
@@ -211,7 +211,7 @@
        position: relative;
        left: 14px;
        width:80vw;
-       border-radius:10px;
+       border-radius:3vw;
        height:11vh;
        color:white;
    }
@@ -238,7 +238,7 @@
        position: relative;
        left: 14px;
        width:80vw;
-       border-radius:10px;
+       border-radius:3vw;
        height:11vh;
        color:white;
        
@@ -293,9 +293,9 @@
        
    .skill-content {
        width: 80vw;
-       height:40vh;
+       height:41vh;
        background-color:#343837;
-       border-radius:10px;
+       border-radius:4vw;
        box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.3);
        color:white;
    }
@@ -303,24 +303,24 @@
     .skill-content h1 {
        position: relative;
        top:7%;
-       left: 10%;
+       left:10%;
        font-size: 4.1vw;
        color:white;
        }
        
        .contact-header {
-           margin-top:30%;
+           margin-top:25%;
            text-align: center;
            height:7vh;
            width:100%;
-           font-size: 5vw;
+           font-size: 4.3vw;
            
        }
         
         .email {
             width: 100%;
             display: flex;
-            margin-top:5%;
+            margin-top:3%;
             justify-content: center;
            
             
@@ -332,8 +332,8 @@
            height:11vh;
            text-align: center;
            background-color:#343837;
-           border-radius:10px;
-           font-size: 4vw;
+           border-radius:3vw;
+           font-size: 4.2vw;
        }
        
        
@@ -341,7 +341,7 @@
        
        .contact a {
            position:relative;
-           font-size:4.2vw;
+           font-size:6vw;
            top:8px;
            color: white;
            
@@ -377,7 +377,7 @@
     footer{
     margin-top:20px;
     background-color:black;
-    color: white;
+    color: orange;
     font-size:4vw;
     height:7vh;
     text-align: center;
@@ -401,12 +401,6 @@
   
   
 
-  
-  
 
-       
-   
-    
-            
-  
-  
+     
+         
