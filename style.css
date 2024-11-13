@@ -1,4 +1,4 @@
-body {
+  body {
   margin: 0;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
@@ -320,10 +320,13 @@ body {
         .email {
             width: 100%;
             display: flex;
-            margin-top:3%;
+            margin-top:4%;
             justify-content: center;
            
             
+        }
+        .email p{
+            color:white;
         }
 
        .contact{
@@ -333,7 +336,7 @@ body {
            text-align: center;
            background-color:#343837;
            border-radius:3vw;
-           font-size: 4.2vw;
+           font-size: 4.3vw;
        }
        
        
@@ -342,7 +345,7 @@ body {
        .contact a {
            position:relative;
            font-size:6vw;
-           top:8px;
+           top:10px;
            color: white;
            
        }
@@ -396,11 +399,47 @@ body {
   
     }
     
-    
-            
+    .frm-container{
+      
+        display:flex;
+        justify-content:center;
+        height:46vh;
+        
+    }
+            form {
+            display: flex;
+            flex-direction: column;
+            width: 90vw;
+            height:45vh;
+        }
+        label {
+           
+            margin-bottom: 0.5rem;
+            font-size: 4vw;
+            color: white;
+        }
+        input, textarea {
+            background-color: transparent;
+            padding: 3.5vw;
+            border: 0.5px solid gray;
+            border-radius: 3vw;
+            font-size: 3.5vw;
+            transition: border 0.3s;
+            margin-bottom: 2vw;
+            color:white;
+        }
+        button {
+            margin-top:2vw;
+            padding: 3vw;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius:2.5vw;
+            cursor: pointer;
+            font-size:4vw;
+        }
+        button:hover {
+            background-color: #218838;
+        }
   
   
-
-
-     
-         
